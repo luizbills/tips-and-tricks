@@ -1,13 +1,3 @@
-## KISS
-
-**K**eep **I**t **S**imple, **S**tupid.
-
-## Make it... Make it... Make it
-
-1. Make it work.
-1. Make it right.
-1. Make it fast.
-
 ## Write Tests First
 
 Before you implement, write the test.
