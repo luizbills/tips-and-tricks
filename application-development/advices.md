@@ -38,3 +38,6 @@ test('What component aspect are you testing?', assert => {
   assert.end();
 });
 ```
+
+## Avoid Side Effects
+Side effects include any state change that is visible outside the function. That includes logging messages, displaying things to the screen, and throwing exceptions. If it’s possible for a function to throw an exception, that fact should be clearly documented. If it’s possible to avoid an exception and still make the function safe to use, you should favor that course over throwing.
